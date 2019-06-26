@@ -248,22 +248,14 @@ return [
         'list_rows' => 15,
     ],
     //微信配置
-    // 'wx'  => [
-    //     'url' => 'https://api.weixin.qq.com/sns/jscode2session',
-    //     'appid' => 'wxe95df82a6fdea541',
-    //     'secret' => '7fad3e1f04076ff6befe5aa185e5184f',
-    //     'grant_type' => 'yikaobang',
-    //     'mch_id'         => "1503263461",
-    //     'mch_key'        => 'bdxzz2vwrtlyixn2yhqhmyyzf1vi3b3d'
-    // ],
     'wx' => [
-        'token'          => 'cmUs4JgNrrQgAn4yOtnMSyrZTTO3a2RR',
-        'appid'          => 'wx0c8b05496023af13',
-        'appsecret'      => 'ad56f98ddf34a30134fcf460b4a1bcdd',
-        'encodingaeskey' => 'MdvOkUbdgdIwKduQfJJJa4bOqkkkJJh4GIIdJ4FvOJF',
+        'token'          => '',
+        'appid'          => '',
+        'appsecret'      => '',
+        'encodingaeskey' => '',
         // 配置商户支付参数（可选，在使用支付功能时需要）
-        'mch_id'         => "1532571781",
-        'mch_key'        => '4HtafGEmXG62FhpNmU9cfVooacomRIQ4',
+        'mch_id'         => "",
+        'mch_key'        => '',
         // 配置商户支付双向证书目录（可选，在使用退款|打款|红包时需要）
         'ssl_key'        => __DIR__ . DIRECTORY_SEPARATOR . 'cert' . DIRECTORY_SEPARATOR . 'apiclient_key.pem',
         'ssl_cer'        => __DIR__ . DIRECTORY_SEPARATOR . 'cert' . DIRECTORY_SEPARATOR . 'apiclient_cert.pem',
